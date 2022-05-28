@@ -83,23 +83,25 @@ p {
 
 
 /* -Id dell'icona del modpack con il float a SINISTRA del paragrafo- */
-#img {
+.img-link1 {
   float: left;    
   margin: 5px 15px 5px 5px;
   width: 20%;
   max-width: 400px;
   height: auto;
   border-radius: 15px;
+  border: 3px solid #ff590000;
 }
 
 /* -Id dell'icona del modpack con il float a DESTRA del paragrafo- */
-#img2 {
+.img-link2 {
   float: right;    
   margin: 5px 15px 5px 15px;
   width: 20%;
   max-width: 400px;
   height: auto;
   border-radius: 15px;
+  border: 3px solid #ff590000;
 }
 
 /* -Classe del paragrafo per aggiungere background, margine, padding e bordi arrotondati al paragrafo- */
@@ -113,10 +115,12 @@ p {
 }
 
 /* -Hover sul paragrafo (da togliere e far diventare hover solo all'icona del modpack)- */
-.paragrafo:hover {
-  outline-color: rgb(247, 136, 0);
+.img-link1:hover {
+  border: 3px solid #ff5900;
 }
-
+.img-link2:hover {
+  border: 3px solid #ff5900;
+}
 /* -Immaginina di chester- */
 .chester {
   width: 5vh;
@@ -240,15 +244,16 @@ body {
 }
 
 .menu-items a:hover {
-  color: #117964;
+  color: #ff5900;
   transition: color 0.3s ease-in-out;
 }
 
 .logo {
   order: 1;
   font-size: 2.3rem;
-  margin-bottom: 0.5rem;
-  width: 20%;
+  margin-bottom: 1rem;
+
+  width: 8%;
   height: auto;
 }
 
@@ -684,7 +689,10 @@ body {
     position: absolute;
     top: 5px;
     right: 15px;
-    font-size: 2rem;
+
+    width: 15%;
+    height: auto;
+    margin-top: -1%;
   }
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
@@ -762,9 +770,10 @@ body {
 
   .logo {
     position: absolute;
-    top: 06px;
+    top: 12px;
     right: 15px;
-    font-size: 3rem;
+    width: 15%;
+    height: auto;
   }
 
   .navbar .menu-items li {
