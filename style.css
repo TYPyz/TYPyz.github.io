@@ -6,6 +6,9 @@ body {
   margin: 0px;
 }
 
+
+
+
 /* -Id che definisce sticky la pagina, serve a farla rimanere attaccata quando scrolli- */
 #main-nav.sticky {
   position: fixed;
@@ -212,14 +215,14 @@ body {
   background: #fff;
   color: #000;
   opacity: 0.85;
-  height: 50px;
+  height: 65px;
   z-index: 12;
 }
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  height: 64px;
+  height: 74px;
   align-items: center;
 }
 
@@ -233,6 +236,7 @@ body {
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
+  
 }
 
 .menu-items a {
@@ -240,6 +244,7 @@ body {
   color: #444;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
+  font-weight: 700;
 }
 
 .menu-items a:hover {
@@ -250,7 +255,7 @@ body {
 .logo {
   order: 1;
   font-size: 2.3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 
   width: 8%;
   height: auto;
@@ -689,9 +694,9 @@ body {
     top: 5px;
     right: 15px;
 
-    width: 15%;
+    width: 25%;
     height: auto;
-    margin-top: -1%;
+    margin-top: 0.5rem;
   }
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
