@@ -18,10 +18,50 @@ body {
 .img {
   width: 8%;
   height: auto;
-  margin: 0px 0px 15px 0px;
+  left: 50%;
 }
 
+.img2 {
+  position: relative;
+  width: 60%;
+  height: auto;
+  margin: 11rem 0px 0px 0px;
+  position: relative;
+  animation-delay: 12s;
+  animation:animateleft 1s;
+}
 
+.p1 {
+  position: absolute;
+  margin: -25rem 0rem 0rem 63rem;
+}
+
+.motto-propierties{
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.marginleft{
+  margin-left: 10rem;
+}
+
+.marginright{
+  margin-right: 10rem;
+  margin-bottom: 1rem;
+}
+
+@keyframes animateleft{
+  from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
+
+.animate-right{
+  position:relative;
+  animation:animateright 1s
+}
+@keyframes animateright{
+  from{right:-200px;opacity:0} to{right:0;opacity:1}
+}
 /* -Definisco le propietà di tutte le sezioni- */
 section {
   min-height: 80vh;
@@ -266,7 +306,7 @@ body {
 
 
 .showcase-container {
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -681,10 +721,10 @@ body {
 
   .logo {
     position: absolute;
-    top: 5px;
+    top: -10px;
     right: 15px;
 
-    width: 25%;
+    width: 20%;
     height: auto;
     margin-top: 0.5rem;
   }
@@ -722,6 +762,54 @@ body {
 
   .img-container {
     margin: 0;
+  }
+
+  /* /////////robba aggiunta dopo/////////// */
+  .showcase-container {
+    max-height: 100rem;
+  }
+
+  .img2 {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 15rem 0rem 4.5rem 4.5rem;
+    position: relative;
+    animation-delay: 12s;
+    animation:animateleft 1s;
+  }
+  
+  .p1 {
+    position: absolute;
+    margin: -5rem 0rem 2rem 2rem;
+  }
+  
+  .motto-propierties{
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  .marginleft{
+    margin-left: 10rem;
+  }
+  
+  .marginright{
+    margin-right: 10rem;
+    margin-bottom: 1rem;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  
+  @keyframes animateleft{
+    from{left:-300px;opacity:0} to{left:0;opacity:1}
+  }
+  
+  .animate-right{
+    position:relative;
+    animation:animateright 1s
+  }
+  @keyframes animateright{
+    from{right:-200px;opacity:0} to{right:0;opacity:1}
   }
 }
 
@@ -775,6 +863,54 @@ body {
     font-size: 1.8rem;
     font-weight: 500;
   }
+
+    /* /////////robba aggiunta dopo/////////// */
+    .showcase-container {
+      max-height: 100rem;
+    }
+  
+    .img2 {
+      position: relative;
+      width: 80%;
+      height: auto;
+      margin: 15rem 0rem 4.5rem 4.5rem;
+      position: relative;
+      animation-delay: 12s;
+      animation:animateleft 1s;
+    }
+    
+    .p1 {
+      position: absolute;
+      margin: -5rem 0rem 2rem 2rem;
+    }
+    
+    .motto-propierties{
+      font-size: 2rem;
+      font-weight: 700;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    
+    .marginleft{
+      margin-left: 10rem;
+    }
+    
+    .marginright{
+      margin-right: 10rem;
+      margin-bottom: 1rem;
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+    
+    @keyframes animateleft{
+      from{left:-300px;opacity:0} to{left:0;opacity:1}
+    }
+    
+    .animate-right{
+      position:relative;
+      animation:animateright 1s
+    }
+    @keyframes animateright{
+      from{right:-200px;opacity:0} to{right:0;opacity:1}
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
