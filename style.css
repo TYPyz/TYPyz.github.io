@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alata:wght@300;400;500;600;700&display=swap');
 /* -Definisco le propietà del body- */
 body {
   font-family: poppins, sans-serif;  
@@ -38,6 +38,7 @@ body {
 }
 
 .motto-propierties{
+  font-family: 'Alata', sans-serif;
   font-size: 2rem;
   font-weight: 700;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -671,7 +672,7 @@ body {
   }
   
   .motto-propierties{
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Alata', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -834,6 +835,7 @@ body {
   }
   
   .motto-propierties{
+    font-family: 'Alata', sans-serif;
     font-size: 2rem;
     font-weight: 700;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -928,6 +930,7 @@ body {
   }
   
   .motto-propierties{
+    font-family: 'Alata', sans-serif;
     font-size: 2rem;
     font-weight: 700;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
