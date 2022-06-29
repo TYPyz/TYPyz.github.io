@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata:wght@300;400;500;600;700&display=swap');
 /* -Definisco le propietà del body- */
 body {
-  font-family: poppins, sans-serif;  
+  font-family: poppins, sans-serif;
   margin: 0px;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .animazioni {
-  width:100%;
+  width: 100%;
 }
 
 .img2 {
@@ -29,7 +29,7 @@ body {
   margin-top: 15rem;
   margin-left: 18rem;
   animation-delay: 12s;
-  animation:animateleft 2s;
+  animation: animateleft 2s;
 }
 
 .div1 {
@@ -37,28 +37,29 @@ body {
   margin: -15rem 0rem 0rem 41rem;
 }
 
-.motto-propierties{
+.motto-propierties {
   font-family: 'Alata', sans-serif;
   font-size: 2rem;
   font-weight: 700;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
-.marginleft{
+.marginleft {
   margin-left: 10rem;
 }
 
-.marginright{
+.marginright {
   margin-right: 10rem;
   margin-bottom: 1rem;
 }
 
-.animate-right{
-  position:relative;
-  animation:animateright 2s
+.animate-right {
+  position: relative;
+  animation: animateright 2s;
 }
 
-@keyframes animateleft{
+@keyframes animateleft {
   from {
     opacity: 0;
     transform: translate(-230px);
@@ -68,7 +69,7 @@ body {
   }
 }
 
-@keyframes animateright{
+@keyframes animateright {
   from {
     opacity: 0;
     transform: translate(230px);
@@ -110,9 +111,27 @@ section#supportus {
 
 /* -Classe background data al body, contiene il gradient che serve a creare le ombre a destra e a sinistra della pagina- */
 .background {
-  background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.650) 0%, rgba(0,0,0,0) 25%), -moz-linear-gradient(270deg, rgba(0, 0, 0, 0.650) 0%, rgba(0,0,0,0) 25%), url("images/background.png");
-  background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.650) 0%, rgba(0,0,0,0) 25%), -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.650) 0%, rgba(0,0,0,0) 25%), url("images/background.png");
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.650) 0%, rgba(0,0,0,0) 25%), linear-gradient(270deg, rgba(0, 0, 0, 0.650) 0%, rgba(0,0,0,0) 25%), url("images/background.png");
+  background: -moz-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.65) 0%,
+      rgba(0, 0, 0, 0) 25%
+    ),
+    -moz-linear-gradient(270deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 25%),
+    url('images/background.png');
+  background: -webkit-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.65) 0%,
+      rgba(0, 0, 0, 0) 25%
+    ),
+    -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 25%),
+    url('images/background.png');
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.65) 0%,
+      rgba(0, 0, 0, 0) 25%
+    ),
+    linear-gradient(270deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 25%),
+    url('images/background.png');
 }
 
 /* -Definisco le proprietà di tutti gli articoli della pagina- */
@@ -141,7 +160,7 @@ p {
 
 /* -Id dell'icona del modpack con il float a SINISTRA del paragrafo- */
 .img-link1 {
-  float: left;    
+  float: left;
   margin: 5px 15px -5px 5px;
   width: 20%;
   max-width: 400px;
@@ -152,7 +171,7 @@ p {
 
 /* -Id dell'icona del modpack con il float a DESTRA del paragrafo- */
 .img-link2 {
-  float: right;    
+  float: right;
   margin: 5px 15px -5px 15px;
   width: 20%;
   max-width: 400px;
@@ -185,8 +204,6 @@ p {
   margin-bottom: -1rem;
   margin-top: -1rem;
 }
-
-
 
 /* -Questa è la scrollbar- */
 *::-webkit-scrollbar {
@@ -221,7 +238,7 @@ p {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* ///////////..utility classes../////////// */
@@ -246,7 +263,7 @@ body {
 
 .btn-primary {
   color: #fff;
-  background: #7289DA;
+  background: #7289da;
 }
 
 .btn-primary:hover {
@@ -258,7 +275,7 @@ body {
 
 /* desktop mode............/// */
 
-.navbar input[type="checkbox"],
+.navbar input[type='checkbox'],
 .navbar .hamburger-lines {
   display: none;
 }
@@ -291,7 +308,6 @@ body {
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
-  
 }
 
 .menu-items a {
@@ -317,8 +333,6 @@ body {
 }
 
 /* ............//// Showcase styling ////......... */
-
-
 
 .showcase-container {
   /*display: flex;*/
@@ -452,7 +466,7 @@ body {
 }
 
 .img-container::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -650,12 +664,13 @@ body {
   background: rgb(65, 65, 65);
 }
 
-/* ......../ media query /.......... */
+/* ........../ media query /.......... */
+/* .........../  1024  /........... */
 @media (max-width: 1024px) {
   .animazioni {
-    width:100%;
+    width: 100%;
   }
-  
+
   .img2 {
     position: relative;
     width: 550px;
@@ -663,42 +678,44 @@ body {
     margin-top: 15rem;
     margin-left: 1.5rem;
     animation-delay: 12s;
-    animation:animateleft 2s;
+    animation: animateleft 2s;
   }
-  
+
   .div1 {
     position: relative;
     margin: -12rem 0rem 0rem 27rem;
   }
-  
-  .motto-propierties{
+
+  .motto-propierties {
     font-family: 'Alata', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
   }
-  
-  .marginleft{
+
+  .marginleft {
     margin-left: 8rem;
   }
-  
-  .marginright{
+
+  .marginright {
     margin-right: 8rem;
     margin-bottom: 1rem;
   }
-  
-  .animate-right{
-    position:relative;
-    animation:animateright 2s
+
+  .animate-right {
+    position: relative;
+    animation: animateright 2s;
   }
 }
 
+/* .........../  768  /........... */
 @media (max-width: 768px) {
   .navbar {
     opacity: 0.95;
   }
 
-  .navbar-container input[type="checkbox"],
+  .navbar-container input[type='checkbox'],
   .navbar-container .hamburger-lines {
     display: block;
   }
@@ -709,12 +726,12 @@ body {
     height: 64px;
   }
 
-  .navbar-container input[type="checkbox"] {
+  .navbar-container input[type='checkbox'] {
     position: absolute;
     display: block;
     height: 32px;
     width: 30px;
-    top: 20px;
+    top: 55px;
     left: 20px;
     z-index: 5;
     opacity: 0;
@@ -725,7 +742,7 @@ body {
     height: 23px;
     width: 35px;
     position: absolute;
-    top: 17px;
+    top: 20px;
     left: 20px;
     z-index: 2;
     display: flex;
@@ -777,26 +794,26 @@ body {
 
   .logo {
     position: absolute;
-    top: -10px;
+    top: -15px;
     right: 15px;
     width: 120px;
     height: auto;
     margin-top: 0.5rem;
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+  .navbar-container input[type='checkbox']:checked ~ .menu-items {
     transform: translateX(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  .navbar-container input[type='checkbox']:checked ~ .hamburger-lines .line1 {
     transform: rotate(35deg);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  .navbar-container input[type='checkbox']:checked ~ .hamburger-lines .line2 {
     transform: scaleY(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  .navbar-container input[type='checkbox']:checked ~ .hamburger-lines .line3 {
     transform: rotate(-35deg);
   }
 
@@ -827,43 +844,43 @@ body {
     margin-top: 15rem;
     margin-left: 15rem;
     animation-delay: 12s;
-    animation:animateleft 2s;
+    animation: animateleft 2s;
   }
-  
+
   .div1 {
     margin: auto;
   }
-  
-  .motto-propierties{
+
+  .motto-propierties {
     font-family: 'Alata', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
   }
-  
-  .marginleft{
+
+  .marginleft {
     margin-left: 10rem;
   }
-  
-  .marginright{
+
+  .marginright {
     margin-right: 10rem;
     margin-bottom: 1rem;
   }
 
-  .animate-right{
-    animation:animateright 1s
+  .animate-right {
+    animation: animateright 1s;
   }
-
-
 }
 
+/* .........../  500  /........... */
 @media (max-width: 500px) {
   html {
     font-size: 65%;
   }
 
-  .navbar .menu-items li{
-      font-size: 1.6rem;
+  .navbar .menu-items li {
+    font-size: 1.6rem;
   }
 
   .testimonial-container {
@@ -896,7 +913,7 @@ body {
 
   .logo {
     position: absolute;
-    top: 12px;
+    top: 5px;
     right: 15px;
     width: 25%;
     height: auto;
@@ -908,11 +925,10 @@ body {
     font-weight: 500;
   }
 
-    /* /////////robba aggiunta dopo/////////// */
+  /* /////////robba aggiunta dopo/////////// */
   .showcase-container {
     max-height: 100rem;
   }
-
 
   .img2 {
     position: relative;
@@ -921,26 +937,27 @@ body {
     margin: 15rem 0rem 4.5rem 4.5rem;
     position: relative;
     animation-delay: 12s;
-    animation:animateleft 1s;
+    animation: animateleft 1s;
   }
-  
+
   .p1 {
     position: absolute;
     margin: -5rem 0rem 2rem 2rem;
   }
-  
-  .motto-propierties{
+
+  .motto-propierties {
     font-family: 'Alata', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
   }
-  
-  .marginleft{
+
+  .marginleft {
     margin-left: 10rem;
   }
-  
-  .marginright{
+
+  .marginright {
     margin-right: 10rem;
     margin-bottom: 1rem;
     overflow-x: hidden; /* Hide horizontal scrollbar */
